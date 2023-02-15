@@ -1,9 +1,12 @@
 import React from "react";
 
-function Product(){
+function Product(props){
+    console.log(props)
     return(
-        <div>
-            <h1>hgfg</h1>
+        <div >
+            <h1> {props.name}</h1>
+            <h1>age {props.email}</h1>
+            
             </div>
     )
 }
