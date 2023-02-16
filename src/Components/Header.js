@@ -1,9 +1,10 @@
 import React from "react";
 
-function Headers(){
+function Headers(prophh){
     return(
         <div>
-            <h1>hgfg</h1>
+            <h1>pass function from props</h1>
+            <button onClick={()=>prophh.data()}>call data function</button>
             </div>
     )
 }

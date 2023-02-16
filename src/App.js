@@ -4,6 +4,7 @@ import Headers from './Components/Header';
 import { useState } from 'react';
 import Product from './Components/product';
 import Video from './Components/Rcomponents/Video';
+import Members from './Components/members';
 
 // function App() {
 
@@ -64,7 +65,7 @@ import Video from './Components/Rcomponents/Video';
 //     <div>
 //        <h1>{name}</h1>
 //       <button onClick={update}>update</button>
-//       {/* <button onClick={update}>-update</button> */}
+//       <button onClick={update}>-update</button>
 //       </div>
 //   )
 // }
@@ -103,16 +104,25 @@ import Video from './Components/Rcomponents/Video';
 //     </div>
 //   )
 // }
-function App (){
-  return(
-    <div>
-      <>
-      Ghytrrddd
-      </>
-  
-<Video />
 
-    </div>
-  )
+// if else condition in react
+function App (){
+//   function getData(){
+//     alert("pass function from props")
+//   }
+//   return(
+//     <div>
+//       <>
+//       Ghytrrddd  
+//       </>
+// <Headers data={getData} />
+// <Headers data={getData} />
+// <Headers data={getData} />
+
+// <Members data={getData} />
+//     </div>
+//   )
+
+
 }
 export default App;
