@@ -10,6 +10,7 @@ import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import AddIcon from '@mui/icons-material/Add';
 import Fields from './Components/Rcomponents/fields';
+import GetAxios from './Components/Rcomponents/Getaxios';
 
 // function App() {
 
@@ -178,7 +179,9 @@ function App() {
       <h1>hwhwh</h1>
       {/* <Product /> */}
       <Headers />
-    </div>
+      <GetAxios />
+
+    </div>  
   )
 }
 export default App;
